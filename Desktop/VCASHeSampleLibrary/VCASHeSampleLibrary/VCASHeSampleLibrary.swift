@@ -86,6 +86,7 @@ public class NetStatus {
         monitor.cancel()
         self.monitor = nil
         isMonitoring = false
+        print("hello")
         didStopMonitoringHandler?()
     }
     
